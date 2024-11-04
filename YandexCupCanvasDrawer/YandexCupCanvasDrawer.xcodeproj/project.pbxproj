@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCEE7B442CD552D800B01257 /* YandexCupCanvasDrawerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B432CD552D800B01257 /* YandexCupCanvasDrawerApp.swift */; };
+		FCEE7B462CD552D800B01257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B452CD552D800B01257 /* ContentView.swift */; };
+		FCEE7B482CD552DB00B01257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEE7B472CD552DB00B01257 /* Assets.xcassets */; };
+		FCEE7B4B2CD552DB00B01257 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEE7B4A2CD552DB00B01257 /* Preview Assets.xcassets */; };
+		FCEE7B552CD552DB00B01257 /* YandexCupCanvasDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B542CD552DB00B01257 /* YandexCupCanvasDrawerTests.swift */; };
+		FCEE7B5F2CD552DB00B01257 /* YandexCupCanvasDrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B5E2CD552DB00B01257 /* YandexCupCanvasDrawerUITests.swift */; };
+		FCEE7B612CD552DB00B01257 /* YandexCupCanvasDrawerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B602CD552DB00B01257 /* YandexCupCanvasDrawerUITestsLaunchTests.swift */; };
+		FCEE7B6E2CD6DD2900B01257 /* LineWidthMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B6D2CD6DD2900B01257 /* LineWidthMenu.swift */; };
+		FCEE7B702CD6DDB200B01257 /* Figures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B6F2CD6DDB200B01257 /* Figures.swift */; };
+		FCEE7B722CD6DDCB00B01257 /* UndoRedoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B712CD6DDCB00B01257 /* UndoRedoManager.swift */; };
+		FCEE7B742CD6DE9C00B01257 /* ToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B732CD6DE9C00B01257 /* ToolbarButton.swift */; };
+		FCEE7B762CD6DF1500B01257 /* DrawingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B752CD6DF1500B01257 /* DrawingModel.swift */; };
+		FCEE7B792CD6DF5C00B01257 /* AddFigureAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B782CD6DF5C00B01257 /* AddFigureAction.swift */; };
+		FCEE7B7D2CD7924C00B01257 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B7C2CD7924C00B01257 /* AppModel.swift */; };
+		FCEE7B7F2CD7BB0400B01257 /* ImageHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B7E2CD7BB0400B01257 /* ImageHelpers.swift */; };
+		FCEE7B812CD7E75900B01257 /* TopButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B802CD7E75900B01257 /* TopButtons.swift */; };
+		FCEE7B832CD8CBDF00B01257 /* GenerateFramesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B822CD8CBDF00B01257 /* GenerateFramesView.swift */; };
+		FCEE7B852CD8EB3300B01257 /* ImageGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B842CD8EB3300B01257 /* ImageGalleryView.swift */; };
+		FCEE7B872CD8F4E600B01257 /* GifUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE7B862CD8F4E600B01257 /* GifUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCEE7B512CD552DB00B01257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCEE7B382CD552D800B01257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCEE7B3F2CD552D800B01257;
+			remoteInfo = YandexCupCanvasDrawer;
+		};
+		FCEE7B5B2CD552DB00B01257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCEE7B382CD552D800B01257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCEE7B3F2CD552D800B01257;
+			remoteInfo = YandexCupCanvasDrawer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCEE7B402CD552D800B01257 /* YandexCupCanvasDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YandexCupCanvasDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEE7B432CD552D800B01257 /* YandexCupCanvasDrawerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexCupCanvasDrawerApp.swift; sourceTree = "<group>"; };
+		FCEE7B452CD552D800B01257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCEE7B472CD552DB00B01257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCEE7B4A2CD552DB00B01257 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCEE7B502CD552DB00B01257 /* YandexCupCanvasDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YandexCupCanvasDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEE7B542CD552DB00B01257 /* YandexCupCanvasDrawerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexCupCanvasDrawerTests.swift; sourceTree = "<group>"; };
+		FCEE7B5A2CD552DB00B01257 /* YandexCupCanvasDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YandexCupCanvasDrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEE7B5E2CD552DB00B01257 /* YandexCupCanvasDrawerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexCupCanvasDrawerUITests.swift; sourceTree = "<group>"; };
+		FCEE7B602CD552DB00B01257 /* YandexCupCanvasDrawerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexCupCanvasDrawerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCEE7B6D2CD6DD2900B01257 /* LineWidthMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineWidthMenu.swift; sourceTree = "<group>"; };
+		FCEE7B6F2CD6DDB200B01257 /* Figures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Figures.swift; sourceTree = "<group>"; };
+		FCEE7B712CD6DDCB00B01257 /* UndoRedoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoRedoManager.swift; sourceTree = "<group>"; };
+		FCEE7B732CD6DE9C00B01257 /* ToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarButton.swift; sourceTree = "<group>"; };
+		FCEE7B752CD6DF1500B01257 /* DrawingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingModel.swift; sourceTree = "<group>"; };
+		FCEE7B782CD6DF5C00B01257 /* AddFigureAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFigureAction.swift; sourceTree = "<group>"; };
+		FCEE7B7C2CD7924C00B01257 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		FCEE7B7E2CD7BB0400B01257 /* ImageHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelpers.swift; sourceTree = "<group>"; };
+		FCEE7B802CD7E75900B01257 /* TopButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopButtons.swift; sourceTree = "<group>"; };
+		FCEE7B822CD8CBDF00B01257 /* GenerateFramesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateFramesView.swift; sourceTree = "<group>"; };
+		FCEE7B842CD8EB3300B01257 /* ImageGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryView.swift; sourceTree = "<group>"; };
+		FCEE7B862CD8F4E600B01257 /* GifUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCEE7B3D2CD552D800B01257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEE7B4D2CD552DB00B01257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEE7B572CD552DB00B01257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCEE7B372CD552D800B01257 = {
+			isa = PBXGroup;
+			children = (
+				FCEE7B422CD552D800B01257 /* YandexCupCanvasDrawer */,
+				FCEE7B532CD552DB00B01257 /* YandexCupCanvasDrawerTests */,
+				FCEE7B5D2CD552DB00B01257 /* YandexCupCanvasDrawerUITests */,
+				FCEE7B412CD552D800B01257 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCEE7B412CD552D800B01257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCEE7B402CD552D800B01257 /* YandexCupCanvasDrawer.app */,
+				FCEE7B502CD552DB00B01257 /* YandexCupCanvasDrawerTests.xctest */,
+				FCEE7B5A2CD552DB00B01257 /* YandexCupCanvasDrawerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCEE7B422CD552D800B01257 /* YandexCupCanvasDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				FCEE7B7B2CD6DF9900B01257 /* Models */,
+				FCEE7B7A2CD6DF8800B01257 /* Views */,
+				FCEE7B772CD6DF4900B01257 /* UndoRedo */,
+				FCEE7B432CD552D800B01257 /* YandexCupCanvasDrawerApp.swift */,
+				FCEE7B452CD552D800B01257 /* ContentView.swift */,
+				FCEE7B472CD552DB00B01257 /* Assets.xcassets */,
+				FCEE7B492CD552DB00B01257 /* Preview Content */,
+				FCEE7B7E2CD7BB0400B01257 /* ImageHelpers.swift */,
+				FCEE7B862CD8F4E600B01257 /* GifUtils.swift */,
+			);
+			path = YandexCupCanvasDrawer;
+			sourceTree = "<group>";
+		};
+		FCEE7B492CD552DB00B01257 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCEE7B4A2CD552DB00B01257 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCEE7B532CD552DB00B01257 /* YandexCupCanvasDrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCEE7B542CD552DB00B01257 /* YandexCupCanvasDrawerTests.swift */,
+			);
+			path = YandexCupCanvasDrawerTests;
+			sourceTree = "<group>";
+		};
+		FCEE7B5D2CD552DB00B01257 /* YandexCupCanvasDrawerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCEE7B5E2CD552DB00B01257 /* YandexCupCanvasDrawerUITests.swift */,
+				FCEE7B602CD552DB00B01257 /* YandexCupCanvasDrawerUITestsLaunchTests.swift */,
+			);
+			path = YandexCupCanvasDrawerUITests;
+			sourceTree = "<group>";
+		};
+		FCEE7B772CD6DF4900B01257 /* UndoRedo */ = {
+			isa = PBXGroup;
+			children = (
+				FCEE7B712CD6DDCB00B01257 /* UndoRedoManager.swift */,
+				FCEE7B782CD6DF5C00B01257 /* AddFigureAction.swift */,
+			);
+			path = UndoRedo;
+			sourceTree = "<group>";
+		};
+		FCEE7B7A2CD6DF8800B01257 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCEE7B6D2CD6DD2900B01257 /* LineWidthMenu.swift */,
+				FCEE7B732CD6DE9C00B01257 /* ToolbarButton.swift */,
+				FCEE7B802CD7E75900B01257 /* TopButtons.swift */,
+				FCEE7B822CD8CBDF00B01257 /* GenerateFramesView.swift */,
+				FCEE7B842CD8EB3300B01257 /* ImageGalleryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCEE7B7B2CD6DF9900B01257 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCEE7B6F2CD6DDB200B01257 /* Figures.swift */,
+				FCEE7B752CD6DF1500B01257 /* DrawingModel.swift */,
+				FCEE7B7C2CD7924C00B01257 /* AppModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCEE7B3F2CD552D800B01257 /* YandexCupCanvasDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEE7B642CD552DB00B01257 /* Build configuration list for PBXNativeTarget "YandexCupCanvasDrawer" */;
+			buildPhases = (
+				FCEE7B3C2CD552D800B01257 /* Sources */,
+				FCEE7B3D2CD552D800B01257 /* Frameworks */,
+				FCEE7B3E2CD552D800B01257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YandexCupCanvasDrawer;
+			productName = YandexCupCanvasDrawer;
+			productReference = FCEE7B402CD552D800B01257 /* YandexCupCanvasDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCEE7B4F2CD552DB00B01257 /* YandexCupCanvasDrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEE7B672CD552DB00B01257 /* Build configuration list for PBXNativeTarget "YandexCupCanvasDrawerTests" */;
+			buildPhases = (
+				FCEE7B4C2CD552DB00B01257 /* Sources */,
+				FCEE7B4D2CD552DB00B01257 /* Frameworks */,
+				FCEE7B4E2CD552DB00B01257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCEE7B522CD552DB00B01257 /* PBXTargetDependency */,
+			);
+			name = YandexCupCanvasDrawerTests;
+			productName = YandexCupCanvasDrawerTests;
+			productReference = FCEE7B502CD552DB00B01257 /* YandexCupCanvasDrawerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCEE7B592CD552DB00B01257 /* YandexCupCanvasDrawerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEE7B6A2CD552DB00B01257 /* Build configuration list for PBXNativeTarget "YandexCupCanvasDrawerUITests" */;
+			buildPhases = (
+				FCEE7B562CD552DB00B01257 /* Sources */,
+				FCEE7B572CD552DB00B01257 /* Frameworks */,
+				FCEE7B582CD552DB00B01257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCEE7B5C2CD552DB00B01257 /* PBXTargetDependency */,
+			);
+			name = YandexCupCanvasDrawerUITests;
+			productName = YandexCupCanvasDrawerUITests;
+			productReference = FCEE7B5A2CD552DB00B01257 /* YandexCupCanvasDrawerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCEE7B382CD552D800B01257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FCEE7B3F2CD552D800B01257 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FCEE7B4F2CD552DB00B01257 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FCEE7B3F2CD552D800B01257;
+					};
+					FCEE7B592CD552DB00B01257 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FCEE7B3F2CD552D800B01257;
+					};
+				};
+			};
+			buildConfigurationList = FCEE7B3B2CD552D800B01257 /* Build configuration list for PBXProject "YandexCupCanvasDrawer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCEE7B372CD552D800B01257;
+			productRefGroup = FCEE7B412CD552D800B01257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCEE7B3F2CD552D800B01257 /* YandexCupCanvasDrawer */,
+				FCEE7B4F2CD552DB00B01257 /* YandexCupCanvasDrawerTests */,
+				FCEE7B592CD552DB00B01257 /* YandexCupCanvasDrawerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCEE7B3E2CD552D800B01257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEE7B4B2CD552DB00B01257 /* Preview Assets.xcassets in Resources */,
+				FCEE7B482CD552DB00B01257 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEE7B4E2CD552DB00B01257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEE7B582CD552DB00B01257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCEE7B3C2CD552D800B01257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEE7B6E2CD6DD2900B01257 /* LineWidthMenu.swift in Sources */,
+				FCEE7B792CD6DF5C00B01257 /* AddFigureAction.swift in Sources */,
+				FCEE7B702CD6DDB200B01257 /* Figures.swift in Sources */,
+				FCEE7B722CD6DDCB00B01257 /* UndoRedoManager.swift in Sources */,
+				FCEE7B7D2CD7924C00B01257 /* AppModel.swift in Sources */,
+				FCEE7B762CD6DF1500B01257 /* DrawingModel.swift in Sources */,
+				FCEE7B462CD552D800B01257 /* ContentView.swift in Sources */,
+				FCEE7B442CD552D800B01257 /* YandexCupCanvasDrawerApp.swift in Sources */,
+				FCEE7B742CD6DE9C00B01257 /* ToolbarButton.swift in Sources */,
+				FCEE7B7F2CD7BB0400B01257 /* ImageHelpers.swift in Sources */,
+				FCEE7B872CD8F4E600B01257 /* GifUtils.swift in Sources */,
+				FCEE7B852CD8EB3300B01257 /* ImageGalleryView.swift in Sources */,
+				FCEE7B812CD7E75900B01257 /* TopButtons.swift in Sources */,
+				FCEE7B832CD8CBDF00B01257 /* GenerateFramesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEE7B4C2CD552DB00B01257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEE7B552CD552DB00B01257 /* YandexCupCanvasDrawerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEE7B562CD552DB00B01257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEE7B5F2CD552DB00B01257 /* YandexCupCanvasDrawerUITests.swift in Sources */,
+				FCEE7B612CD552DB00B01257 /* YandexCupCanvasDrawerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCEE7B522CD552DB00B01257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCEE7B3F2CD552D800B01257 /* YandexCupCanvasDrawer */;
+			targetProxy = FCEE7B512CD552DB00B01257 /* PBXContainerItemProxy */;
+		};
+		FCEE7B5C2CD552DB00B01257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCEE7B3F2CD552D800B01257 /* YandexCupCanvasDrawer */;
+			targetProxy = FCEE7B5B2CD552DB00B01257 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCEE7B622CD552DB00B01257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCEE7B632CD552DB00B01257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCEE7B652CD552DB00B01257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YandexCupCanvasDrawer/Preview Content\"";
+				DEVELOPMENT_TEAM = RT9LTEAJTV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INSTALL_GROUP = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.mobile.YandexCupCanvasDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCEE7B662CD552DB00B01257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YandexCupCanvasDrawer/Preview Content\"";
+				DEVELOPMENT_TEAM = RT9LTEAJTV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INSTALL_GROUP = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.mobile.YandexCupCanvasDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCEE7B682CD552DB00B01257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RT9LTEAJTV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.mobile.YandexCupCanvasDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YandexCupCanvasDrawer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YandexCupCanvasDrawer";
+			};
+			name = Debug;
+		};
+		FCEE7B692CD552DB00B01257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RT9LTEAJTV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.mobile.YandexCupCanvasDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YandexCupCanvasDrawer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YandexCupCanvasDrawer";
+			};
+			name = Release;
+		};
+		FCEE7B6B2CD552DB00B01257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RT9LTEAJTV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.mobile.YandexCupCanvasDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YandexCupCanvasDrawer;
+			};
+			name = Debug;
+		};
+		FCEE7B6C2CD552DB00B01257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RT9LTEAJTV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.mobile.YandexCupCanvasDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YandexCupCanvasDrawer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCEE7B3B2CD552D800B01257 /* Build configuration list for PBXProject "YandexCupCanvasDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEE7B622CD552DB00B01257 /* Debug */,
+				FCEE7B632CD552DB00B01257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEE7B642CD552DB00B01257 /* Build configuration list for PBXNativeTarget "YandexCupCanvasDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEE7B652CD552DB00B01257 /* Debug */,
+				FCEE7B662CD552DB00B01257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEE7B672CD552DB00B01257 /* Build configuration list for PBXNativeTarget "YandexCupCanvasDrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEE7B682CD552DB00B01257 /* Debug */,
+				FCEE7B692CD552DB00B01257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEE7B6A2CD552DB00B01257 /* Build configuration list for PBXNativeTarget "YandexCupCanvasDrawerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEE7B6B2CD552DB00B01257 /* Debug */,
+				FCEE7B6C2CD552DB00B01257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCEE7B382CD552D800B01257 /* Project object */;
+}
